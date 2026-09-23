@@ -30,6 +30,7 @@ public class Main {
 				if (palavra[i].equals(tentativa)) {
 					solucao[i] = tentativa;
 					encontrou = 1;
+					JOptionPane.showConfirmDialog(null, "Acertou molecote!");
 				}
 			}		
 			if (encontrou == 0) {
